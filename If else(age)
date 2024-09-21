@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int age;
+    cout<<"ENter Age"<<endl;
+    cin>>age;
+    if(age<12)
+    {
+        cout<<"CHild"<<endl;
+
+    }
+    else if(age>58)
+    {
+    cout<<"Old "<<endl;
+    }
+    else
+    {
+        cout<<"Adult"<<endl;
+    }
+    return 0;
+}
