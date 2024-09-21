@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int grade;
+    cout<< "Enter Your grade" <<endl;
+    cin>>grade;
+    if(grade>80)
+    cout<<"A"<<endl;
+    else if(grade>60)
+    cout<<"B"<<endl;
+    else if(grade>40)
+    cout<<"C"<<endl;
+    else
+    cout<<"Fail"<<endl;
+   /*/ if(grade<35)
+    {
+        cout<<"Fail"<<endl;
+    }
+    else if(grade>78)
+    {
+        cout<<"Performer"<<endl;
+    }
+    else
+    {
+        cout<<"AVerage"<<endl;
+    }*/
+    return 0;
+}
